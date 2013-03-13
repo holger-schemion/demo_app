@@ -10,7 +10,7 @@ group :development do
 end
 
 #group :development do
-#  gem 'pg', '0.12.2'
+#  gem 'mysql'
 #end
 
 # Gems used only for assets and not required
@@ -22,9 +22,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-#group :production do
-#  gem 'pg', '0.12.2'
-#end
+group :production do
+  gem 'pg', '0.12.2'
+end
 
 gem 'jquery-rails'
 
